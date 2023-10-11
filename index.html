@@ -3,17 +3,21 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Cose da fare oggi !</title>
-    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <main>
-      <div class="builder">
-        <input type="text" id="WhatToDo" placeholder="cosa farò oggi?" required />
-        <button id="addToList">Aggiungi !</button>
-        <ul id="listaCoseDaFare"></ul>
+      <div id="task-area">
+        <h1>Cose da fare oggi !</h1>
+        <form id="CreaTask">
+          <input id="task" type="text" required />
+          <button type="submit">Crea task</button>
+        </form>
+        <div id="taskList"></div>
       </div>
     </main>
-    <script src="./script.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
+
